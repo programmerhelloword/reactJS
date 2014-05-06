@@ -1,0 +1,238 @@
+/* Menu top*/
+body {
+	padding-top: 49px;
+	font-size: 18px;
+}
+a:hover {
+	text-decoration: none;
+}
+#menu-top .dropdown-icons > li {
+	border-right: none !important;
+}
+#menu-top .dropdown-icons > li a {
+	line-height: 45px;
+}
+#menu-top .dropdown-icons .button-menu {
+	width: 20%;
+}
+#menu-top .dropdown-icons .list-menu {
+	width: 20%;
+	position: relative;
+}
+#menu-top .dropdown-icons .list-menu:hover {
+}
+#menu-top .dropdown-icons .list-menu .title-list {
+	float: right;
+	margin-right: 1%;
+	padding-right: 30%;
+	width: 100%;
+	text-align: right;
+}
+#menu-top .dropdown-icons .list-menu ol {
+	position: absolute;
+	display: none;
+	top: 51px;
+	right: 1%;
+	background: #67B0D1;
+	width: 140px;
+	text-shadow: 1px 1px 1px gray;
+	box-shadow: -3px 3px 1px black;
+}
+#menu-top .dropdown-icons .list-menu ol .glyphicon {
+	font-size: 7px;
+	padding-left: 5px;
+	line-height: inherit;
+}
+
+#menu-top .dropdown-icons .list-menu ol a {
+	padding: 0;
+	padding-right: 10px;
+	width: 100%;
+	text-align: right;
+}
+
+#menu-top .dropdown-icons .title-menu {
+	width: 75%;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+#menu-top .dropdown-icons .title-menu p {
+	line-height: 50px;
+	margin: 0;
+}
+#menu-top .dropdown-icons > li > a {
+	height: 50px;
+	line-height: 50px;
+}
+#menu-top .glyphicon {
+	font-size: 20px;
+	line-height: 40px;
+}
+#menu-top .dropdown {
+	position: fixed;
+	top: -1px;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	background: #67B0D1;
+	margin:0;
+}
+
+/* Dialog Vocabulary*/
+.ui-dialog {
+	background: white !important;
+	position: fixed !important;
+	padding: 0;
+	border: 1px solid #67B0D1;
+	top: 60px !important;
+	width: 95% !important;
+	z-index: 1005 !important;
+}
+.ui-dialog-content {
+	height: 300px !important;
+	width: inherit !important;
+	z-index: 1005 !important;
+	overflow: hidden;
+}
+.ui-dialog-titlebar {
+	background: #67B0D1;
+	border: none;
+	color: white;
+	border-radius: 0;
+	z-index: 1005 !important;
+}
+.ui-dialog-titlebar span {
+	font-size: 20px !important;
+}
+.dialog-vocabulary {
+	overflow: hidden;
+}
+.dialog-vocabulary li {
+	list-style: disc;
+	margin-left: 10px;
+	line-height: 28px;
+}
+.dialog-vocabulary li a {
+	color: blue;
+}
+.dialog-vocabulary li ul li {
+	list-style: circle;
+	margin-left: 20px;
+	font-size: 85%;
+	line-height: 25px;
+}
+.dialog-vocabulary .title {
+	font-weight: bold;
+	line-height: 25px;
+	color: #67B0D1;
+}
+.dialog-vocabulary .type {
+	color: #E87352;
+	font-weight: bold;
+	line-height: 25px;
+}
+.dialog-vocabulary .glyphicon {
+	font-size: 45px;
+	color: #67B0D1;
+	text-shadow: 1px 1px 1px black;
+}
+.ui-dialog .ui-icon-closethick {
+	background: white url("../img/close.png") no-repeat center !important;
+	top: 20px !important;
+	left: inherit !important;
+	right: 10px !important;
+	border-radius: 5px;
+	padding: 8px;
+}
+#content_article p {
+	line-height: 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	background: white !important;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	background: none !important;
+	border: none !important;
+}
+.ui-dialog .ui-dialog-titlebar-close .ui-button-text {
+	display:none;
+}
+.close-dialog {
+	background: white;
+	opacity: 0.5;
+	width: 1000px;
+	height: 1000px;
+	z-index: 1001;
+	position: fixed;
+	display: none;
+	top: -50px;
+	left: -20px;
+}
+.tab-content {
+	padding: 0 !important;
+}
+/*use by gnews_menu.html*/
+#your-habit .widget-accordion .accordion-toggle.collapsed:before, #your-habit .widget-accordion .accordion-toggle.collapsed:after {
+	background: #dddddd;
+}
+#your-habit .widget-accordion .accordion-toggle.collapsed {
+	background: white;
+	color: gray;
+	border: 1px solid #dddddd;
+}
+#categories2 .widget-categories.style2 .counter, #categories .widget-categories.style2 .counter {
+	display: none;
+}
+#categories2 .widget-container .widget-title, #categories .widget-container .widget-title {
+	background: #67B0D1;
+}
+#categories2 .glyphicon, #categories .glyphicon {
+	left: -25px;
+}
+#categories2 .widget-categories.style2 li a, #categories .widget-categories.style2 li a {
+	padding: 15px 60px; font-size: 18px; text-transform:capitalize;
+}
+.widget-categories .ico-cat {
+	background: none;
+}
+
+.page-aboutversion .glyphicon {
+	left: -10px !important;
+}
+.page-aboutversion .widget-categories.style2 li a {
+	padding: 15px 20px !important;
+}
+.ui-dialog .glyphicon-volume-up{
+}
+/*Recommend word from server: */
+#modal_dict_dialog{
+	width:100%;margin:0 !important; padding:0 ;
+}
+#modal_dict_dialog table:first-of-type td {
+	margin:0 ; padding-top:5px;
+	width:30%;
+	vertical-align:top !important;
+}
+#modal_dict_dialog table:first-of-type td:first-of-type{
+	width:70% ;
+}
+#modal_dict_dialog .txt_tratu{
+	width:95% ; height:40px;  padding:0 ; float:left;
+	border:1px solid #dddddd; margin-top:5px;
+}
+#modal_dict_dialog .btn_tratu{ 
+	height:50px; width:100%; float:right !important; vertical-align:top;
+}
+#modal_dict_dialog .title{
+	margin:0; line-height:40px;	font-weight:normal; 
+}
+.post-meta-links .post-read{ 
+	display:none;}
+.post-meta-links .post-date{
+	padding:20px !important;
+}
